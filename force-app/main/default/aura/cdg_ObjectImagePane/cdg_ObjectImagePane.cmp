@@ -8,5 +8,9 @@
             multiple="false"
             recordId="{!v.recordId}"
             onuploadfinished="{!c.handleImageUpload}"/>
+        
+        <img src="" id="recordImage" style="max-height:{!v.imgMaxHeight}; max-width:{!v.imgMaxWidth};"/>
     </lightning:card>
+
+    <!-- need to add logic to standardize name, check for existing image file, and hide/show accordingly -->
 </aura:component>	
