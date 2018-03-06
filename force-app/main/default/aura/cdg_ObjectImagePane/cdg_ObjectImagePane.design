@@ -1,3 +1,4 @@
-<design:component >
-
+<design:component label="Object Image Pane">
+        <design:attribute name="imgMaxHeight" label="Image Max Height" description="Image size will be based on maintaining aspect ratio based on whichever maximum value is hit first."/>
+        <design:attribute name="imgMaxWidth" label="Image Max Width" description="Image size will be based on maintaining aspect ratio based on whichever maximum value is hit first."/>
 </design:component>

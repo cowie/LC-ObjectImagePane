@@ -1,6 +1,9 @@
 <aura:component implements="flexipage:availableForRecordHome, force:hasRecordId, force:hasSObjectName">
+    <aura:attribute name="imgMaxHeight" type="Integer"/>
+    <aura:attribute name="imgMaxWidth" type="Integer"/>
+
     <lightning:card title="Record Image">
-        <lighting:fileUpload label="Upload Image"
+        <lightning:fileUpload label="Upload Image"
             name="imageUploader"
             multiple="false"
             recordId="{!v.recordId}"
