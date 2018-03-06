@@ -1,0 +1,9 @@
+<aura:component implements="flexipage:availableForRecordHome, force:hasRecordId, force:hasSObjectName">
+    <lightning:card title="Record Image">
+        <lighting:fileUpload label="Upload Image"
+            name="imageUploader"
+            multiple="false"
+            recordId="{!v.recordId}"
+            onuploadfinished="{!c.handleImageUpload}"/>
+    </lightning:card>
+</aura:component>	
