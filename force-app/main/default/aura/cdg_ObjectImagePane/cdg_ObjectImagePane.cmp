@@ -2,12 +2,12 @@
     <aura:attribute name="hasImage" type="boolean" default="false" />
     <aura:attribute name="imageTitle" type="string" default="Record Image"/>
     <aura:attribute name="imageURL" type="string" default="" />
-    <aura:handler name="init" value="{!this}" action="{c.doInit}"/>
-    
+    <aura:attribute name="filename" type="string" default="image" />
+    <aura:renderIf isTrue="{!v.hasImage}">
         <lightning:card title="{!v.imageTitle}">
-            <img src="" id="recordImage" style="max-height:{!v.imgMaxHeight}; max-width:{!v.imgMaxWidth};"/>
+            <img src="" id="recordImage" />
         </lightning:card>
-    
+        <aura:set attribute="else">
             <lightning:card title="Upload Image">
                 <lightning:fileUpload label="Upload Image"
                     name="imageUploader"
@@ -15,7 +15,9 @@
                     recordId="{!v.recordId}"
                     onuploadfinished="{!c.handleImageUpload}"/> 
             </lightning:card>
-            <h1>{!v.recordId}</h1>
+        </aura:set>
+    </aura:renderIf>
+            
     <!-- need to add logic to standardize name, check for existing image file, 
         convert h/w to auto-values and hide/show accordingly -->
 </aura:component>	

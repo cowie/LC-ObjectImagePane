@@ -14,5 +14,10 @@
     },
     handleImageUpload : function(cmp, evt, helper) {
         //convert the pane to the display div not the input div
+        var uploadedFiles = evt.getParam("files");
+        console.log(uploadedFiles);
+        var imageFile = uploadedFiles[0];
+        console.log(imageFile);
+        helper.correctImageDeets(cmp, imageFile);
     }
 })
