@@ -10,7 +10,7 @@
             cmp.set("v.recordURL", )
             // /sfc/servlet.shepherd/version/renditionDownload?rendition=ORIGINAL_Png&versionId=0683B000000Mlht&operationContext=CHATTER&contentId={!RECORDID}
         }
-    }
+    },
     handleImageUpload : function(cmp, evt, helper) {
         //convert the pane to the display div not the input div
     }
