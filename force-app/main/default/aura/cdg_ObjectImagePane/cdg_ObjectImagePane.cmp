@@ -1,16 +1,21 @@
 <aura:component implements="flexipage:availableForRecordHome, force:hasRecordId, force:hasSObjectName">
-    <aura:attribute name="imgMaxHeight" type="Integer"/>
-    <aura:attribute name="imgMaxWidth" type="Integer"/>
-
-    <lightning:card title="Record Image">
-        <lightning:fileUpload label="Upload Image"
-            name="imageUploader"
-            multiple="false"
-            recordId="{!v.recordId}"
-            onuploadfinished="{!c.handleImageUpload}"/>
-        
-        <img src="" id="recordImage" style="max-height:{!v.imgMaxHeight}; max-width:{!v.imgMaxWidth};"/>
-    </lightning:card>
-
-    <!-- need to add logic to standardize name, check for existing image file, and hide/show accordingly -->
+    <aura:attribute name="hasImage" type="boolean" default="false" />
+    <aura:attribute name="imageTitle" type="string" default="Record Image"/>
+    <aura:attribute name="imageURL" type="string" default="" />
+    <aura:handler name="init" value="{!this}" action="{c.doInit}"/>
+    
+        <lightning:card title="{!v.imageTitle}">
+            <img src="" id="recordImage" style="max-height:{!v.imgMaxHeight}; max-width:{!v.imgMaxWidth};"/>
+        </lightning:card>
+    
+            <lightning:card title="Upload Image">
+                <lightning:fileUpload label="Upload Image"
+                    name="imageUploader"
+                    multiple="false"
+                    recordId="{!v.recordId}"
+                    onuploadfinished="{!c.handleImageUpload}"/> 
+            </lightning:card>
+            <h1>{!v.recordId}</h1>
+    <!-- need to add logic to standardize name, check for existing image file, 
+        convert h/w to auto-values and hide/show accordingly -->
 </aura:component>	

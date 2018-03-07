@@ -32,16 +32,14 @@
     [
         "/Users/cdegour/Workspaces/dx/randoProjects/objectImageComponent/force-app/main/default",
         {
+            "state": "u",
             "sourcePath": "/Users/cdegour/Workspaces/dx/randoProjects/objectImageComponent/force-app/main/default",
             "isDirectory": true,
-            "size": 96,
-            "modifiedTime": 1520349214939,
-            "changeTime": 1520349214939,
-            "contentHash": "2c2a89c1c45d2977cfce538e475902f5520f4382",
             "isMetadataFile": false,
-            "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "size": 160,
+            "modifiedTime": 1520373272846,
+            "changeTime": 1520373272846,
+            "contentHash": "652936e172d29594295c80fb3868fb3388581439"
         }
     ],
     [
@@ -222,6 +220,71 @@
             "state": "u",
             "isWorkspace": true,
             "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/cdegour/Workspaces/dx/randoProjects/objectImageComponent/force-app/main/default/flexipages/Account_Record_Page.flexipage-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/cdegour/Workspaces/dx/randoProjects/objectImageComponent/force-app/main/default/flexipages/Account_Record_Page.flexipage-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 6247,
+            "modifiedTime": 1520373272838,
+            "changeTime": 1520373272838,
+            "contentHash": "2faeb803b66736d583eb0e1488fa6369115ebacf"
+        }
+    ],
+    [
+        "/Users/cdegour/Workspaces/dx/randoProjects/objectImageComponent/force-app/main/default/classes/cdg_objectImagePaneController.cls-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/cdegour/Workspaces/dx/randoProjects/objectImageComponent/force-app/main/default/classes/cdg_objectImagePaneController.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 174,
+            "modifiedTime": 1520373272847,
+            "changeTime": 1520373272847,
+            "contentHash": "5690448073e1f4fad2748afd55cc064a162b59a5"
+        }
+    ],
+    [
+        "/Users/cdegour/Workspaces/dx/randoProjects/objectImageComponent/force-app/main/default/classes/cdg_objectImagePaneController.cls",
+        {
+            "state": "u",
+            "sourcePath": "/Users/cdegour/Workspaces/dx/randoProjects/objectImageComponent/force-app/main/default/classes/cdg_objectImagePaneController.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 47,
+            "modifiedTime": 1520373272849,
+            "changeTime": 1520373272849,
+            "contentHash": "32399e1fbc63b3753b5d5cb1fdbeaf57e8cdf27f"
+        }
+    ],
+    [
+        "/Users/cdegour/Workspaces/dx/randoProjects/objectImageComponent/force-app/main/default/flexipages",
+        {
+            "state": "u",
+            "sourcePath": "/Users/cdegour/Workspaces/dx/randoProjects/objectImageComponent/force-app/main/default/flexipages",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 96,
+            "modifiedTime": 1520373272838,
+            "changeTime": 1520373272838,
+            "contentHash": "84ae45b14ce04fbcb63fa653277ce669fbb307ea"
+        }
+    ],
+    [
+        "/Users/cdegour/Workspaces/dx/randoProjects/objectImageComponent/force-app/main/default/classes",
+        {
+            "state": "u",
+            "sourcePath": "/Users/cdegour/Workspaces/dx/randoProjects/objectImageComponent/force-app/main/default/classes",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 128,
+            "modifiedTime": 1520373272849,
+            "changeTime": 1520373272849,
+            "contentHash": "2c7c2cbfcc6e0917e08f2fd896065223d3918ea2"
         }
     ]
 ]
