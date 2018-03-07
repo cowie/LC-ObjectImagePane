@@ -1,5 +1,6 @@
 ({
     getImageID : function(recordID, filename) {
+        /*
         var action = cmp.get("c.getRecordImageID")
         action.setParams({recordID:recordID, filename:filename});
 
@@ -24,5 +25,6 @@
         });
 
         $A.enqueueAction(action);
+        */
     }
 })
