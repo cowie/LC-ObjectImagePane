@@ -90,15 +90,15 @@
     [
         "/Users/cdegour/Workspaces/dx/randoProjects/objectImageComponent/force-app/main/default/aura/cdg_ObjectImagePane/cdg_ObjectImagePane.cmp",
         {
+            "state": "u",
             "sourcePath": "/Users/cdegour/Workspaces/dx/randoProjects/objectImageComponent/force-app/main/default/aura/cdg_ObjectImagePane/cdg_ObjectImagePane.cmp",
             "isDirectory": false,
-            "size": 1058,
-            "modifiedTime": 1520439613716,
-            "changeTime": 1520439613716,
-            "contentHash": "55f73025d1c401a9dd6fd562a5bb274216c44c34",
             "isMetadataFile": false,
-            "state": "u",
-            "isWorkspace": false
+            "size": 1878,
+            "modifiedTime": 1520549513984,
+            "changeTime": 1520549513984,
+            "isWorkspace": false,
+            "contentHash": "e73631855771046c72de9bee461dbcf96d6f612e"
         }
     ],
     [
@@ -121,10 +121,10 @@
         {
             "sourcePath": "/Users/cdegour/Workspaces/dx/randoProjects/objectImageComponent/force-app/main/default/aura/cdg_ObjectImagePane/cdg_ObjectImagePane.css",
             "isDirectory": false,
-            "size": 33,
-            "modifiedTime": 1520357554812,
-            "changeTime": 1520357554812,
-            "contentHash": "5019ec00209c5d930207c1c4b97dc9bf670cf34e",
+            "size": 138,
+            "modifiedTime": 1520545685678,
+            "changeTime": 1520545685678,
+            "contentHash": "f889afa1fbfde2f27edafd2810019b2c1ef8243c",
             "isMetadataFile": false,
             "state": "u",
             "isWorkspace": false
@@ -135,10 +135,10 @@
         {
             "sourcePath": "/Users/cdegour/Workspaces/dx/randoProjects/objectImageComponent/force-app/main/default/aura/cdg_ObjectImagePane/cdg_ObjectImagePane.design",
             "isDirectory": false,
-            "size": 64,
-            "modifiedTime": 1520368643385,
-            "changeTime": 1520368643385,
-            "contentHash": "91b730618031a0ef8e84455e922edf060f1eb997",
+            "size": 720,
+            "modifiedTime": 1520549206000,
+            "changeTime": 1520549206869,
+            "contentHash": "0a01f40abd4a3ae183ba634cbb4a36fa78980081",
             "isMetadataFile": false,
             "state": "u",
             "isWorkspace": false
@@ -162,15 +162,15 @@
     [
         "/Users/cdegour/Workspaces/dx/randoProjects/objectImageComponent/force-app/main/default/aura/cdg_ObjectImagePane/cdg_ObjectImagePaneController.js",
         {
-            "state": "u",
             "sourcePath": "/Users/cdegour/Workspaces/dx/randoProjects/objectImageComponent/force-app/main/default/aura/cdg_ObjectImagePane/cdg_ObjectImagePaneController.js",
             "isDirectory": false,
+            "size": 690,
+            "modifiedTime": 1520547977654,
+            "changeTime": 1520547977654,
+            "contentHash": "42b5bec1886d0f8def222678cca5425b1baaf93a",
             "isMetadataFile": false,
-            "size": 805,
-            "modifiedTime": 1520439774004,
-            "changeTime": 1520439774004,
-            "isWorkspace": false,
-            "contentHash": "fa423e2ececd02dc4dfbb64da219aa1012546b8a"
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
@@ -178,10 +178,10 @@
         {
             "sourcePath": "/Users/cdegour/Workspaces/dx/randoProjects/objectImageComponent/force-app/main/default/aura/cdg_ObjectImagePane/cdg_ObjectImagePaneHelper.js",
             "isDirectory": false,
-            "size": 944,
-            "modifiedTime": 1520435169548,
-            "changeTime": 1520435169548,
-            "contentHash": "79878952351268e030fa4b2a14578e282c7a0e98",
+            "size": 3626,
+            "modifiedTime": 1520548763027,
+            "changeTime": 1520548763027,
+            "contentHash": "1c37b24ed26b78309c63a849c144fa46c3db3f24",
             "isMetadataFile": false,
             "state": "u",
             "isWorkspace": false
@@ -248,10 +248,10 @@
         {
             "sourcePath": "/Users/cdegour/Workspaces/dx/randoProjects/objectImageComponent/force-app/main/default/classes/cdg_objectImagePaneController.cls",
             "isDirectory": false,
-            "size": 286,
-            "modifiedTime": 1520435179429,
-            "changeTime": 1520435179429,
-            "contentHash": "967d04bd5a0c8b5a66785cb362f682f705be5f8b",
+            "size": 1574,
+            "modifiedTime": 1520548906565,
+            "changeTime": 1520548906565,
+            "contentHash": "4f366e7efc3600007fb600a44c39f7e365bd16b5",
             "isMetadataFile": false,
             "state": "u"
         }
