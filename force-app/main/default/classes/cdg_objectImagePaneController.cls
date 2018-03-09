@@ -8,8 +8,10 @@ public class cdg_objectImagePaneController {
     @AuraEnabled
     public static ContentDocument getRecordImage(string recordID, string filename){
         List<ContentDocumentLink> cdl = [select ContentDocumentID from ContentDocumentLink where LinkedEntityID = :recordID AND ContentDocument.Title = :filename Limit 1];
-        if(cdl.size() == 1){
+        system.debug(cdl);
+        if(cdl.size() > 0){
             //doc exists
+            system.debug(cdl[0]);
             string contentDocumentID = cdl[0].ContentDocumentID;
             return [select id, title, LatestPublishedVersion.ContentURL, LatestPublishedVersionId from ContentDocument where id = :contentDocumentID];
         }else{
