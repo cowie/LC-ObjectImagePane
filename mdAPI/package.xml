@@ -7,6 +7,7 @@
   <types>
     <name>ApexClass</name>
     <members>cdg_objectImagePaneController</members>
+    <members>cdg_objectImagePaneTest</members>
   </types>
   <types>
     <name>FlexiPage</name>
