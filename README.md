@@ -1,5 +1,6 @@
 # Simple LEX Record Image Container
-## Open Sourced / Unsupported - So I hope you trust my coding abilities (lord knows I don't)
+## Open Sourced / Unsupported  
+So I hope you trust my coding abilities (lord knows I don't)
 
 ## Wait Wut?
 Alright, so SFDC doesn't have a blob container. This means that having a default image for your Contacts and Accounts and Widget__c's can be difficult sometimes. This LEX Component should make that easy. Simple component to drag onto any object's record detail. Will save a file with an admin-specified filename on the record, and then always pop that image up for users. Want to change the image? Cool, there's a button for that too. 
@@ -49,10 +50,10 @@ Alright, so SFDC doesn't have a blob container. This means that having a default
 
 
 ## Description of Files and Directories
-
+**mdAPI** - that's where you'll find you stuff in metadata api format. Good eatins
+**force-app** - that's where you'll find you stuff in dx format. the new hotness and all.
 
 ## Issues / ToDo's
 1. Not sure if there needs to be edit perms on this. Probably not I'd imagine.
 1. Kinda wanted it to just update a new version of the content, not a new doc every time, but it's easier to use the prebuilt file uploader. 
 1. Need to make a 'wide scale' component version, in case folk want it on the main pane instead of the gutter.
-1. Lol probably need some test classes too.
