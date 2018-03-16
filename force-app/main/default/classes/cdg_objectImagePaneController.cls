@@ -24,7 +24,7 @@ public class cdg_objectImagePaneController {
     public static ContentDocument correctImageDeets(string docID, string filename){
         //ContentDocument doc = [select id, title, LatestPublishedVersion.ContentURL, LatestPublishedVersionId from ContentDocument where id = :docID];
         //need to validate if this thing exists already then convert to a new version
-        List<ContentDocument> existingDocs = [select id, title, LatestPublishedVersionId from ContentDocument where title = :filename];
+        List<ContentDocument> existingDocs = [select id, title, LatestPublishedVersionId from ContentDocument where title = :filename and id = :docID];
         if(existingDocs.size() > 0){
             delete existingDocs;
         }
